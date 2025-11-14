@@ -11,7 +11,7 @@ Jinja2==3.0.1
 Mako>=1.2.0
 MarkupSafe==2.0.1
 msal==1.13.0
-SQLAlchemy>=1.4.49
+SQLAlchemy==1.4.49
 Werkzeug==2.0.3
 WTForms==2.2.1
 cachelib==0.13.0
