@@ -7,7 +7,7 @@ class Config(object):
 
     # Azure Blob Storage
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'images11'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'xoL4kg/avO/IRcJv3hgsS3+iAwWNiC49vGQB6iRpEZkmOn9J4d+Zd21usd1hsR7QPj5IJIP7Nv1L+AStxDcGow=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY')
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     # Azure SQL Database
